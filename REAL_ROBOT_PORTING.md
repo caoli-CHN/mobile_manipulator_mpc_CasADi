@@ -283,7 +283,7 @@ q1 = js.position[joint_index["shoulder_pan_joint"]]
 
 | 文件/节点 | 原因 |
 | --- | --- |
-| [catkin_ws/src/asset/omni_rob/scripts/fake_odom.py](/home/caoli/Mobile-Manipulator_MPC_CasADi/catkin_ws/src/asset/omni_rob/scripts/fake_odom.py) | 只用于伪造 `/odom` |
+| [catkin_ws/src/asset/omni_rob/scripts/fake_odom.py](/home/caoli/Mobile-Manipulator_MPC_CasADi/catkin_ws/src/asset/omni_rob/scripts/fake_odom.py) | 只用于仿真 `/odom` |
 | [catkin_ws/src/asset/omni_rob/scripts/base_controller.py](/home/caoli/Mobile-Manipulator_MPC_CasADi/catkin_ws/src/asset/omni_rob/scripts/base_controller.py) | 只用于 Gazebo 底盘控制 |
 | `world_frame_set()` | 直接设模型绝对位姿，真机不存在 |
 | `/gazebo/get_model_state` | Gazebo 专用 |
